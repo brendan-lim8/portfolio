@@ -12,6 +12,7 @@ body {
 .header {
     display: flex;
     justify-content: right;
+    background-color: white;
 }
 
 .home {
@@ -42,5 +43,17 @@ body {
 }
 
 nav {
-    margin-right: 40px;
+    margin-right: 50px;
+}
+
+.projects {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, 250px);
+    gap: 20px;
+}
+.card1, .card2, .card3 {
+    height: 300px;
+    background-color: grey;
+    padding: 20px;
 }
